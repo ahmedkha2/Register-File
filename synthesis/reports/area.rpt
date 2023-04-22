@@ -1,0 +1,55 @@
+ 
+****************************************
+Report : area
+Design : register_file
+Version: K-2015.06
+Date   : Sat Apr 22 12:12:17 2023
+****************************************
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/Projects/System_diploma/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                         1544
+Number of nets:                          2450
+Number of cells:                          982
+Number of combinational cells:            714
+Number of sequential cells:               256
+Number of macros/black boxes:               0
+Number of buf/inv:                         85
+Number of references:                       5
+
+Combinational area:               7416.740183
+Buf/Inv area:                      348.303204
+Noncombinational area:            6627.174316
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 14043.914499
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area           Local cell area
+                                  -------------------  ---------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-     Noncombi-  Black-
+                                  Total       Total    national   national   boxes   Design
+--------------------------------  ----------  -------  ---------  ---------  ------  ---------
+register_file                     14043.9145    100.0    42.3612     0.0000  0.0000  register_file
+decoder                              84.7224      0.6    84.7224     0.0000  0.0000  DECODER
+m1                                 2280.4446     16.2  2280.4446     0.0000  0.0000  MUX_0
+m2                                 2280.4446     16.2  2280.4446     0.0000  0.0000  MUX_1
+set                                9355.9416     66.6     7.0602     0.0000  0.0000  REG_SET
+set/R0                             1167.2864      8.3   338.8896   828.3968  0.0000  REG_32_0
+set/R1                             1170.8165      8.3   342.4197   828.3968  0.0000  REG_32_7
+set/R2                             1170.8165      8.3   342.4197   828.3968  0.0000  REG_32_6
+set/R3                             1170.8165      8.3   342.4197   828.3968  0.0000  REG_32_5
+set/R4                             1167.2864      8.3   338.8896   828.3968  0.0000  REG_32_4
+set/R5                             1167.2864      8.3   338.8896   828.3968  0.0000  REG_32_3
+set/R6                             1167.2864      8.3   338.8896   828.3968  0.0000  REG_32_2
+set/R7                             1167.2864      8.3   338.8896   828.3968  0.0000  REG_32_1
+--------------------------------  ----------  -------  ---------  ---------  ------  ---------
+Total                                                  7416.7402  6627.1743  0.0000
+
+1

@@ -1,0 +1,685 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 20
+Design : register_file
+Version: K-2015.06
+Date   : Sat Apr 22 12:12:19 2023
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[19]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U97/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U106/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[19] (MUX_0)                  0.00       6.32 r
+  outBusA[19] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[18]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U93/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U111/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[18] (MUX_0)                  0.00       6.32 r
+  outBusA[18] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[17]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U89/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U116/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[17] (MUX_0)                  0.00       6.32 r
+  outBusA[17] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[16]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U85/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U121/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[16] (MUX_0)                  0.00       6.32 r
+  outBusA[16] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[15]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U82/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U126/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[15] (MUX_0)                  0.00       6.32 r
+  outBusA[15] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[14]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U78/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U131/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[14] (MUX_0)                  0.00       6.32 r
+  outBusA[14] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[13]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U74/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U136/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[13] (MUX_0)                  0.00       6.32 r
+  outBusA[13] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[12]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U70/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U141/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[12] (MUX_0)                  0.00       6.32 r
+  outBusA[12] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[11]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U67/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U146/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[11] (MUX_0)                  0.00       6.32 r
+  outBusA[11] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[10]
+            (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U63/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U151/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[10] (MUX_0)                  0.00       6.32 r
+  outBusA[10] (out)                        0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[9] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U59/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U1/Y (NAND4X12M)                      0.68       6.32 r
+  m1/outBus_o[9] (MUX_0)                   0.00       6.32 r
+  outBusA[9] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[8] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U55/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U6/Y (NAND4X12M)                      0.68       6.32 r
+  m1/outBus_o[8] (MUX_0)                   0.00       6.32 r
+  outBusA[8] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[7] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U52/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U11/Y (NAND4X12M)                     0.68       6.32 r
+  m1/outBus_o[7] (MUX_0)                   0.00       6.32 r
+  outBusA[7] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[6] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U48/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U16/Y (NAND4X12M)                     0.68       6.32 r
+  m1/outBus_o[6] (MUX_0)                   0.00       6.32 r
+  outBusA[6] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[5] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U44/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U21/Y (NAND4X12M)                     0.68       6.32 r
+  m1/outBus_o[5] (MUX_0)                   0.00       6.32 r
+  outBusA[5] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[4] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U40/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U26/Y (NAND4X12M)                     0.68       6.32 r
+  m1/outBus_o[4] (MUX_0)                   0.00       6.32 r
+  outBusA[4] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[3] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U37/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U31/Y (NAND4X12M)                     0.68       6.32 r
+  m1/outBus_o[3] (MUX_0)                   0.00       6.32 r
+  outBusA[3] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[2] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U33/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U46/Y (NAND4X12M)                     0.68       6.32 r
+  m1/outBus_o[2] (MUX_0)                   0.00       6.32 r
+  outBusA[2] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[1] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U29/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U101/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[1] (MUX_0)                   0.00       6.32 r
+  outBusA[1] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+  Startpoint: srcRegA[1] (input port clocked by M_CLK)
+  Endpoint: outBusA[0] (output port clocked by M_CLK)
+  Path Group: M_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock M_CLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     4.00       4.00 r
+  srcRegA[1] (in)                          0.01       4.01 r
+  U6/Y (BUFX2M)                            0.23       4.24 r
+  m1/select_i[1] (MUX_0)                   0.00       4.24 r
+  m1/U22/Y (INVX2M)                        0.17       4.41 f
+  m1/U3/Y (NOR3X4M)                        0.83       5.23 r
+  m1/U25/Y (AOI22X1M)                      0.41       5.64 f
+  m1/U156/Y (NAND4X12M)                    0.68       6.32 r
+  m1/outBus_o[0] (MUX_0)                   0.00       6.32 r
+  outBusA[0] (out)                         0.00       6.32 r
+  data arrival time                                   6.32
+
+  clock M_CLK (rise edge)                 20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  clock uncertainty                       -0.20      19.80
+  output external delay                   -4.00      15.80
+  data required time                                 15.80
+  -----------------------------------------------------------
+  data required time                                 15.80
+  data arrival time                                  -6.32
+  -----------------------------------------------------------
+  slack (MET)                                         9.48
+
+
+1
